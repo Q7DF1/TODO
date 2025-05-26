@@ -1,4 +1,4 @@
-package com.couldbebetter.todo.ui.theme.navigation
+package com.couldbebetter.todo.ui.navigation
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable

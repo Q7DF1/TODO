@@ -1,4 +1,4 @@
-package com.couldbebetter.todo.ui.theme.components
+package com.couldbebetter.todo.ui.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

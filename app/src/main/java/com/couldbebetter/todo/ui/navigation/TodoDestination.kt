@@ -1,6 +1,5 @@
-package com.couldbebetter.todo.ui.theme.navigation
+package com.couldbebetter.todo.ui.navigation
 
-import android.graphics.drawable.Icon
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AddCircle
 import androidx.compose.material.icons.filled.Check
