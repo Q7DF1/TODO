@@ -6,6 +6,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
+import com.couldbebetter.todo.overview.OverViewScreen
+import com.couldbebetter.todo.overview.TodoTaskScreen
 
 @Composable
 fun TodoNavHost(
@@ -18,12 +20,11 @@ fun TodoNavHost(
         modifier = modifier
     ) {
         composable(route = Home.route) {
-            //TODO
-            Text("home")
+            OverViewScreen()
         }
         composable(route = AddTasks.route) {
             //TODO
-            Text("Add Task")
+            TodoTaskScreen()
         }
         composable(route = Tasks.route) {
             //TODO

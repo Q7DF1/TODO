@@ -121,7 +121,7 @@ fun TodoNavBarItem(
         verticalArrangement = Arrangement.spacedBy(8.dp),
         modifier = modifier.clickable(
             onClick = onSelected,
-            role = Role.Tab
+            role = Role.Tab,
         )
     ) {
         Icon(
