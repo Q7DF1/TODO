@@ -35,9 +35,9 @@ import androidx.compose.ui.unit.dp
 import com.couldbebetter.todo.data.TodoItem
 
 val dataSample: List<TodoItem> = listOf<TodoItem>(
-    TodoItem("mingti","212","dadadada",false),
-    TodoItem("我要干嘛","什么东西","2025/4/4",true),
-    TodoItem("idjak","dadad","2025/5/24",false)
+    TodoItem(1,"mingti","212","dadadada",false),
+    TodoItem(2,"我要干嘛","什么东西","2025/4/4",true),
+    TodoItem(3,"idjak","dadad","2025/5/24",false)
 )
 @Composable
 fun TodoCardContentList(todoList : List<TodoItem>) {
